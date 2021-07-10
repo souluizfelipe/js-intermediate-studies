@@ -1,0 +1,18 @@
+
+.toast {
+    display: inline-block;
+    padding: 24px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    border-radius: 8px;
+    color: #33322E;
+    position: absolute;
+    bottom: 30px;
+    left: -100%;
+    transition: all 600ms ease-in-out;
+}
+
+.toast.active {
+    left: 30px;
+
+}
