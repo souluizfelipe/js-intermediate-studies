@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js-interm-ex3</title>  
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <form id="formData" action="data.html">
+    <div class="state-wrapper">
+      <label>
+        Estado
+        <select name="state" id="state-select">
+          <option value="">-- Selecione um Estado --</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+        </select>
+        <span class="erro"></span>
+      </label>
+    </div>
+
+    <div class="city-wrapper">
+      <label>
+        Cidades
+        <select name="city" id="city-select"></select>
+        <span class="erro"></span>   
+      </label> 
+    </div>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
