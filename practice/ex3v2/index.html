@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js-iterm-ex3-v2</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form id="dataForm" action="dataCap.html">
+    <div class="state-section">
+      <label for="state">
+        Estado
+        <select name="state" id="state">
+          <option value="">--Selecione um Estado--</option>  
+          <option value="pr">Paraná</option>
+          <option value="sc">Santa Catarina</option>
+        </select>
+        <span class="error"></span>
+      </label>
+    </div>
+    <div class="city-section">
+      <label for="city">
+        Cidade
+        <select name="city" id="city"></select>
+        <spam class="error"></spam>
+      </label>
+    </div>
+    <button type="submit">Cadastrar</button>
+   </form>
+  <script src="script.js"></script>
+</body>
+</html>
